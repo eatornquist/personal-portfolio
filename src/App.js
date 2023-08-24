@@ -29,7 +29,10 @@ function App() {
               <a href="#" className="google-plus">
                 <i className="bx bxl-skype"></i>
               </a>
-              <a href="#" className="linkedin">
+              <a
+                href="https://www.linkedin.com/in/eduardo-tornquist-albella-3b759b124/"
+                className="linkedin"
+              >
                 <i className="bx bxl-linkedin"></i>
               </a>
             </div>
