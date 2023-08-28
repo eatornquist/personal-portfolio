@@ -1,5 +1,6 @@
 import Education from './Education'
 import Experience from './Experience'
+import DownloadPDF from './DownloadPDF'
 
 const Resume = () => {
   return (
@@ -14,7 +15,6 @@ const Resume = () => {
             fugiat sit in iste officiis commodi quidem hic quas.
           </p>
         </div>
-
         <div className="row">
           <Education
             city={'Miami, FL'}
@@ -24,6 +24,8 @@ const Resume = () => {
 
           <Experience />
         </div>
+
+        <DownloadPDF />
       </div>
     </section>
   )
