@@ -1,42 +1,31 @@
+import { socialLinks } from '../data'
+import headerImg from '../img/profile-img.jpg'
+import Navbar from './Navbar'
+
 const Header = () => {
   return (
     <>
       {/* <!-- ======= Mobile nav toggle button ======= --> */}
       <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-      {/* <!-- ======= Header ======= --> */}
       <header id="header">
         <div className="d-flex flex-column">
           <div className="profile">
-            <img
-              src="./img/profile-img.jpg"
-              alt=""
-              className="img-fluid rounded-circle"
-            />
+            <img src={headerImg} alt="" className="img-fluid rounded-circle" />
             <h1 className="text-light">
-              <a href="index.html">Alex Smith</a>
+              <a href="index.html">Eduardo Tornquist</a>
             </h1>
             <div className="social-links mt-3 text-center">
-              <a href="#" className="twitter">
-                <i className="bx bxl-twitter"></i>
-              </a>
-              <a href="#" className="facebook">
-                <i className="bx bxl-facebook"></i>
-              </a>
-              <a href="#" className="instagram">
-                <i className="bx bxl-instagram"></i>
-              </a>
-              <a href="#" className="google-plus">
-                <i className="bx bxl-skype"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/eduardo-tornquist-albella-3b759b124/"
-                className="linkedin"
-              >
-                <i className="bx bxl-linkedin"></i>
-              </a>
+              {socialLinks.map((link) => {
+                return (
+                  <a key={link.id} href={link.href} className={link.text}>
+                    <i className={link.icon}></i>
+                  </a>
+                )
+              })}
             </div>
           </div>
+          <Navbar />
         </div>
       </header>
     </>

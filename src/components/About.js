@@ -1,4 +1,5 @@
 import aboutImg from '../img/profile-img.jpg'
+import Details from './Details'
 
 const About = () => {
   return (
@@ -25,46 +26,7 @@ const About = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className="row">
-              <div className="col-lg-6">
-                <ul>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Birthday:</strong> <span>1 May 1995</span>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Website:</strong> <span>www.example.com</span>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Phone:</strong> <span>+123 456 7890</span>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>City:</strong> <span>New York, USA</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-lg-6">
-                <ul>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Age:</strong> <span>30</span>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Degree:</strong> <span>Master</span>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>PhEmailone:</strong> <span>email@example.com</span>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Freelance:</strong> <span>Available</span>
-                  </li>
-                </ul>
-              </div>
+              <Details />
             </div>
             <p>
               Officiis eligendi itaque labore et dolorum mollitia officiis optio

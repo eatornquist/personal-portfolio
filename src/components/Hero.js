@@ -5,7 +5,7 @@ const Hero = () => {
       className="d-flex flex-column justify-content-center align-items-center"
     >
       <div className="hero-container" data-aos="fade-in">
-        <h1>Alex Smith</h1>
+        <h1>Eduardo Tornquist</h1>
         <p>
           I'm{' '}
           <span
