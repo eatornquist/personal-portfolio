@@ -25,13 +25,11 @@ export const ContactUs = () => {
           console.log(error.text)
         }
       )
-  }
 
-  const notify = () => {
     toast.success('Message sent', {
       position: 'top-right',
-      autoClose: 2000,
-      hideProgressBar: false,
+      autoClose: 3000,
+      hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: false,
       draggable: true,
@@ -39,6 +37,19 @@ export const ContactUs = () => {
       theme: 'light',
     })
   }
+
+  // const notify = () => {
+  //   toast.success('Message sent', {
+  //     position: 'top-right',
+  //     autoClose: 2000,
+  //     hideProgressBar: false,
+  //     closeOnClick: true,
+  //     pauseOnHover: false,
+  //     draggable: true,
+  //     progress: undefined,
+  //     theme: 'light',
+  //   })
+  // }
 
   return (
     <>
@@ -145,9 +156,7 @@ export const ContactUs = () => {
                   </div>
                 </div>
                 <div className="text-center">
-                  <button type="submit" onClick={notify}>
-                    Send Message
-                  </button>
+                  <button type="submit">Send Message</button>
                 </div>
               </form>
             </div>
