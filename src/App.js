@@ -9,6 +9,7 @@ import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import ContactUs from './components/ContactUs'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         {/* <Portfolio /> */}
         {/* <Services /> */}
         {/* <Testimonials /> */}
-        <Contact />
+        {/* <Contact /> */}
+        <ContactUs />
       </main>
 
       <Footer />
