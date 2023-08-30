@@ -1,5 +1,5 @@
 import { socialLinks } from '../data'
-import headerImg from '../img/profile-img.jpg'
+import headerImg from '../img/profile-img2_Fotor.jpg'
 import Navbar from './Navbar'
 
 const Header = () => {

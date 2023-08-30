@@ -1,4 +1,4 @@
-import aboutImg from '../img/profile-img.jpg'
+import aboutImg from '../img/profile-img2_Fotor.jpg'
 import Details from './Details'
 
 const About = () => {
