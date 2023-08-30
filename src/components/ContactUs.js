@@ -38,31 +38,8 @@ export const ContactUs = () => {
     })
   }
 
-  // const notify = () => {
-  //   toast.success('Message sent', {
-  //     position: 'top-right',
-  //     autoClose: 2000,
-  //     hideProgressBar: false,
-  //     closeOnClick: true,
-  //     pauseOnHover: false,
-  //     draggable: true,
-  //     progress: undefined,
-  //     theme: 'light',
-  //   })
-  // }
-
   return (
     <>
-      {/* <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form> */}
-
       <section id="contact" className="contact">
         <div className="container">
           <div className="section-title">
@@ -99,7 +76,7 @@ export const ContactUs = () => {
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
                   // frameBorder="0"
-                  style={{border: "0", with: "100%", height:"290px" }}
+                  style={{ border: '0', with: '100%', height: '290px' }}
                   allowFullScreen
                 ></iframe>
               </div>
