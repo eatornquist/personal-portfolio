@@ -6,8 +6,8 @@ const ProgressBar = () => {
       <div className="col-lg-6" data-aos="fade-up">
         {skills1.map((skill) => {
           return (
-            <div className="progress">
-              <span className="skill" key={skill.id}>
+            <div className="progress" key={skill.id}>
+              <span className="skill">
                 {skill.title} <i className="val">{skill.percent}%</i>
               </span>
               <div className="progress-bar-wrap">
@@ -27,8 +27,8 @@ const ProgressBar = () => {
       <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         {skills2.map((skill) => {
           return (
-            <div className="progress">
-              <span className="skill" key={skill.id}>
+            <div className="progress" key={skill.id}>
+              <span className="skill">
                 {skill.title} <i className="val">{skill.percent}%</i>
               </span>
               <div className="progress-bar-wrap">
