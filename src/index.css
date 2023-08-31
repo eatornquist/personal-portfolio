@@ -541,6 +541,30 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Advice
+--------------------------------------------------------------*/
+
+.advice .advice-button {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.advice .advice-button:hover {
+  background: #37b3ed;
+}
+
+.advice .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {

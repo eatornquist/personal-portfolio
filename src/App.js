@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import ContactUs from './components/ContactUs'
 // import TypedReactHooksDemo from './components/TypedReactHooksDemo'
+import AdviceAPI from './components/AdviceAPI'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Facts />
         <Skills />
         <Resume />
+        <AdviceAPI />
         {/* <Portfolio /> */}
         {/* <Services /> */}
         {/* <Testimonials /> */}
