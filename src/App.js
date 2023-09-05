@@ -12,6 +12,7 @@ import Header from './components/Header'
 import ContactUs from './components/ContactUs'
 // import TypedReactHooksDemo from './components/TypedReactHooksDemo'
 import AdviceAPI from './components/AdviceAPI'
+import ImageGenerator from './components/ImageGenerator'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         {/* <Contact /> */}
         <ContactUs />
         {/* <TypedReactHooksDemo /> */}
+        {/* <ImageGenerator /> */}
       </main>
 
       <Footer />
