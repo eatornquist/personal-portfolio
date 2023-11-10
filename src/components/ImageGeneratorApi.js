@@ -47,7 +47,7 @@ function ImageGeneratorApi() {
       <div className="container">
         <div className="section-title">
           <h2>AI Image Generator? Why not</h2>
-          <p>Why did the AI image generator become a comedian? Because it had a byte-sized sense of humor!.</p>
+          <p>Pixels pirouette, AI draws a sheep, but dreams of counting them puts the generator to sleep.</p>
         </div>
         <div>
           <div className="row" data-aos="fade-in">
