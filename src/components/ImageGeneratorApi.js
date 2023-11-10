@@ -55,23 +55,30 @@ function ImageGeneratorApi() {
               <div className="info">
                 <form onSubmit={onSubmit}>
                   <input className="form-control" type="text" placeholder="Describe your Image" ref={textRef} />
-                  <button className="image_generator-button" type="submit">
-                    Get Image
-                  </button>
+                  <div className="text-center">
+                    <button className="image_generator-button" type="submit">
+                      Get Image
+                    </button>
+                  </div>
                 </form>
-                <span className="white">{sucess}</span>
-                <span className="red">{error}</span>
-                <div className="col-lg-4">
-                  {resImage ? (
-                    <img src={resImage} alt="generated" />
-                  ) : (
-                    // <span>No image caught</span>
-                    ''
-                  )}
-                </div>
               </div>
             </div>
           </div>
+        </div>
+        <span className="white">{sucess}</span>
+        <span className="red">{error}</span>
+        <div className="polaroid">
+          {resImage ? (
+            <>
+              <img src={resImage} alt="generated" />
+              <div className="caption">
+                <p>{textRef.current.value}</p>
+              </div>
+            </>
+          ) : (
+            // <span>No image caught</span>
+            ''
+          )}
         </div>
       </div>
     </section>
