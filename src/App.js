@@ -13,7 +13,7 @@ import ContactUs from './components/ContactUs'
 // import TypedReactHooksDemo from './components/TypedReactHooksDemo'
 import AdviceAPI from './components/AdviceAPI'
 // import ImageGenerator from './components/ImageGenerator'
-import ImageGenerator2 from './components/ImageGenerator2'
+import ImageGeneratorApi from './components/ImageGeneratorApi'
 
 function App() {
   return (
@@ -26,13 +26,13 @@ function App() {
         <Skills />
         <Resume />
         <AdviceAPI />
+        <ImageGeneratorApi />
         {/* <Portfolio /> */}
         {/* <Services /> */}
         {/* <Testimonials /> */}
         {/* <Contact /> */}
         <ContactUs />
         {/* <TypedReactHooksDemo /> */}
-        <ImageGenerator2 />
       </main>
 
       <Footer />

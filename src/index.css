@@ -565,6 +565,38 @@ section {
 }
 
 /*--------------------------------------------------------------
+# IA Image Generator
+--------------------------------------------------------------*/
+
+.image_generator .image_generator-button {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.image_generator .image_generator-button:hover {
+  background: #37b3ed;
+}
+
+.image_generator .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.image_generator img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 256px;
+  width: 256px;
+}
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
@@ -681,10 +713,7 @@ section {
   position: relative;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -692,10 +721,7 @@ section {
   border: 1px solid #149ddd;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
 

@@ -10,21 +10,14 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs
-      .sendForm(
-        'service_h44c47r',
-        'template_9ogpu29',
-        form.current,
-        '32yvFigv-u4VKpZsm'
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
+    emailjs.sendForm('service_h44c47r', 'template_9ogpu29', form.current, '32yvFigv-u4VKpZsm').then(
+      (result) => {
+        console.log(result.text)
+      },
+      (error) => {
+        console.log(error.text)
+      }
+    )
 
     toast.success('Message sent', {
       position: 'top-right',
@@ -45,10 +38,9 @@ export const ContactUs = () => {
           <div className="section-title">
             <h2>Contact</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+              sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
 
@@ -86,50 +78,25 @@ export const ContactUs = () => {
                 <div className="row">
                   <div className="form-group col-md-6">
                     <label htmlFor="name">Your Name</label>
-                    <input
-                      type="text"
-                      name="user_name"
-                      className="form-control"
-                      id="name"
-                      required
-                    />
+                    <input type="text" name="user_name" className="form-control" id="name" required />
                   </div>
                   <div className="form-group col-md-6">
                     <label htmlFor="name">Your Email</label>
-                    <input
-                      type="email"
-                      className="form-control"
-                      name="user_email"
-                      id="email"
-                      required
-                    />
+                    <input type="email" className="form-control" name="user_email" id="email" required />
                   </div>
                 </div>
                 <div className="form-group">
                   <label htmlFor="name">Subject</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    name="subject"
-                    id="subject"
-                    required
-                  />
+                  <input type="text" className="form-control" name="subject" id="subject" required />
                 </div>
                 <div className="form-group">
                   <label htmlFor="name">Message</label>
-                  <textarea
-                    className="form-control"
-                    name="message"
-                    rows="10"
-                    required
-                  ></textarea>
+                  <textarea className="form-control" name="message" rows="10" required></textarea>
                 </div>
                 <div className="my-3">
                   <div className="loading">Loading</div>
                   <div className="error-message"></div>
-                  <div className="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
+                  <div className="sent-message">Your message has been sent. Thank you!</div>
                 </div>
                 <div className="text-center">
                   <button type="submit">Send Message</button>
