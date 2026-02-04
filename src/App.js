@@ -11,9 +11,9 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import ContactUs from './components/ContactUs'
 // import TypedReactHooksDemo from './components/TypedReactHooksDemo'
-import AdviceAPI from './components/AdviceAPI'
+// import AdviceAPI from './components/AdviceAPI'
 // import ImageGenerator from './components/ImageGenerator'
-import ImageGeneratorApi from './components/ImageGeneratorApi'
+// import ImageGeneratorApi from './components/ImageGeneratorApi'
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
         {/* <Facts /> */}
         <Skills />
         <Resume />
-        <AdviceAPI />
-        <ImageGeneratorApi />
+        {/* <AdviceAPI /> */}
+        {/* <ImageGeneratorApi /> */}
         {/* <Portfolio /> */}
         {/* <Services /> */}
         {/* <Testimonials /> */}
