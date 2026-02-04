@@ -1,6 +1,6 @@
 import Hero from './components/Hero'
 import About from './components/About'
-import Facts from './components/Facts'
+// import Facts from './components/Facts'
 import Skills from './components/Skills'
 import Resume from './components/Resume'
 // import Portfolio from './components/Portfolio'
@@ -22,7 +22,7 @@ function App() {
       <Hero />
       <main id="main">
         <About />
-        <Facts />
+        {/* <Facts /> */}
         <Skills />
         <Resume />
         <AdviceAPI />

@@ -13,7 +13,7 @@ const Hero = () => {
         'Software Developer',
         'Frontend Developer',
         'Backend Developer',
-        'Fullstack Developer',
+        'Full-Stack Developer',
       ],
       typeSpeed: 50,
       backSpeed: 50,

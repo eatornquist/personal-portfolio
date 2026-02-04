@@ -1,4 +1,4 @@
-import aboutImg from '../img/profile-img2_Fotor.jpg'
+import aboutImg from '../img/profile-img2_Fotor.jpeg'
 import Details from './Details'
 
 const About = () => {
@@ -8,10 +8,16 @@ const About = () => {
         <div className="section-title">
           <h2>About</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+            I’m a Full Stack Developer with over 4 years of experience building
+            web and enterprise applications. I work with technologies such as
+            React, NestJS, and TypeScript to deliver reliable, scalable
+            solutions, and leverage Microsoft Azure to support cloud-based
+            systems.
+          </p>
+          <p>
+            Most of my experience comes from business-critical applications,
+            including ERP systems and internal platforms used across multiple
+            departments.
           </p>
         </div>
 
@@ -20,22 +26,17 @@ const About = () => {
             <img src={aboutImg} className="img-fluid" alt="" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
-            <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h3>Full-Stack Developer.</h3>
+            <br />
             <div className="row">
               <Details />
             </div>
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio
-              vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor
-              incidunt officia tempore. Et eius omnis. Cupiditate ut dicta
-              maxime officiis quidem quia. Sed et consectetur qui quia
-              repellendus itaque neque. Aliquid amet quidem ut quaerat
-              cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium
-              dolores.
+              I enjoy solving real-world problems, improving system reliability,
+              and writing code that’s easy to maintain and evolve. I’m currently
+              focused on modern web and cloud development, and I value
+              continuous learning, clean architecture, and contributing to
+              meaningful, long-term projects.
             </p>
           </div>
         </div>

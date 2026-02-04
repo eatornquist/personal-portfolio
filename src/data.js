@@ -1,9 +1,9 @@
-import img1 from './img/portfolio/portfolio-1.jpg'
-import img2 from './img/portfolio/portfolio-2.jpg'
-import img3 from './img/portfolio/portfolio-3.jpg'
-import img4 from './img/portfolio/portfolio-4.jpg'
-import img5 from './img/portfolio/portfolio-5.jpg'
-import img6 from './img/portfolio/portfolio-6.jpg'
+// import img1 from './img/portfolio/portfolio-1.jpg'
+// import img2 from './img/portfolio/portfolio-2.jpg'
+// import img3 from './img/portfolio/portfolio-3.jpg'
+// import img4 from './img/portfolio/portfolio-4.jpg'
+// import img5 from './img/portfolio/portfolio-5.jpg'
+// import img6 from './img/portfolio/portfolio-6.jpg'
 
 export const pageLinks = [
   {
@@ -83,96 +83,95 @@ export const socialLinks = [
   },
 ]
 
-export const items = [
-  {
-    id: 1,
-    src: img1,
-    title: 'App 1',
-    className: 'col-lg-4 col-md-6 portfolio-item filter-app',
-  },
-  {
-    id: 2,
-    src: img2,
-    title: 'Web 3',
-    className: 'col-lg-4 col-md-6 portfolio-item filter-web',
-  },
-  {
-    id: 3,
-    src: img3,
-    title: 'App 2',
-    className: 'col-lg-4 col-md-6 portfolio-item filter-app',
-  },
-  {
-    id: 4,
-    src: img4,
-    title: 'Card 2',
-    className: 'col-lg-4 col-md-6 portfolio-item filter-card',
-  },
-  {
-    id: 5,
-    src: img5,
-    title: 'Web 2',
-    className: 'col-lg-4 col-md-6 portfolio-item filter-web',
-  },
-  {
-    id: 6,
-    src: img6,
-    title: 'App 3',
-    className: 'col-lg-4 col-md-6 portfolio-item filter-card',
-  },
-]
+// export const items = [
+//   {
+//     id: 1,
+//     src: img1,
+//     title: 'App 1',
+//     className: 'col-lg-4 col-md-6 portfolio-item filter-app',
+//   },
+//   {
+//     id: 2,
+//     src: img2,
+//     title: 'Web 3',
+//     className: 'col-lg-4 col-md-6 portfolio-item filter-web',
+//   },
+//   {
+//     id: 3,
+//     src: img3,
+//     title: 'App 2',
+//     className: 'col-lg-4 col-md-6 portfolio-item filter-app',
+//   },
+//   {
+//     id: 4,
+//     src: img4,
+//     title: 'Card 2',
+//     className: 'col-lg-4 col-md-6 portfolio-item filter-card',
+//   },
+//   {
+//     id: 5,
+//     src: img5,
+//     title: 'Web 2',
+//     className: 'col-lg-4 col-md-6 portfolio-item filter-web',
+//   },
+//   {
+//     id: 6,
+//     src: img6,
+//     title: 'App 3',
+//     className: 'col-lg-4 col-md-6 portfolio-item filter-card',
+//   },
+// ]
 
 export const personalInformation1 = [
   {
     id: 1,
-    title: 'Birthday:',
-    info: '4 Apr 1993',
-  },
-  {
-    id: 2,
-    title: 'email:',
+    title: 'Email:',
     info: 'eatornquist04@gmail.com',
   },
   {
-    id: 3,
+    id: 2,
     title: 'Phone:',
     info: '786-609-1118',
   },
   {
-    id: 4,
-    title: 'City:',
-    info: 'Miami, FL',
+    id: 3,
+    title: 'Location:',
+    info: 'Los Angeles, CA',
   },
 ]
 
 export const personalInformation2 = [
   {
     id: 1,
-    title: 'Age:',
-    info: '30',
+    title: 'Role:',
+    info: 'Full-Stack Developer',
   },
   {
     id: 2,
     title: 'Degree:',
-    info: 'Software Engineer',
-  },
-  {
-    id: 3,
-    title: 'Website:',
-    info: 'www.example.com',
+    info: 'B.S. in Software Engineering',
   },
   {
     id: 4,
-    title: 'Role:',
-    info: 'Software Developer',
+    title: 'Availability:',
+    info: 'Open to interviews',
   },
+  // {
+  //   id: 3,
+  //   title: 'Website:',
+  //   info: 'www.example.com',
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Role:',
+  //   info: 'Software Developer',
+  // },
 ]
 
 export const skills1 = [
   {
     id: 1,
     title: 'HTML',
-    percent: '100',
   },
   {
     id: 2,
@@ -204,52 +203,90 @@ export const skills2 = [
   },
 ]
 
-export const resumeEducation = [
+export const skillCategories = [
   {
     id: 1,
-    title: 'Master of Fine Arts &amp; Graphic Design',
-    periodTime: '2015 - 2016',
-    institution: 'Rochester Institute of Technology, Rochester, NY',
-    description:
-      'Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto  autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend',
+    category: 'Frontend',
+    skills: ['React', 'Redux', 'Material UI'],
   },
   {
     id: 2,
-    title: 'Bachelor of Fine Arts &amp; Graphic Design',
-    periodTime: '2010 - 2014',
-    institution: 'Rochester Institute of Technology, Rochester, NY',
+    category: 'Backend',
+    skills: ['NestJS', 'TypeScript'],
+  },
+  {
+    id: 3,
+    category: 'Cloud',
+    skills: [
+      'Microsoft Azure (Cosmos DB, Function Apps, Blob Storage, Key Vault)',
+    ],
+  },
+  {
+    id: 4,
+    category: 'DevOps & Tools',
+    skills: ['Git', 'Azure DevOps', 'Visual Studio'],
+  },
+]
+
+export const resumeEducation = [
+  {
+    id: 1,
+    title: 'Bachelor’s in Software Engineering',
+    periodTime: 'Sept 2012 — Sept 2017',
+    institution:
+      'Universidad Tecnológica de la Habana Jose Antonio Echeverría, Havana, Cuba',
     description:
-      'Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila',
+      'Title evaluated by Josef Silny and Associates (<a href="https://jsilny.org/" target="_blank" rel="noopener noreferrer">www.jsilny.org</a>) in the Foreign Credential Evaluation, obtaining the equivalent of Bachelor of Science in Information Technology.',
+  },
+  {
+    id: 2,
+    title:
+      '<a href="https://www.chegg.com/skills/our-programs/frontend-web-development/" target="_blank" rel="noopener noreferrer">Frontend Web Development Certificate Program</a>',
+    periodTime: 'Nov 2023 — Feb 2024',
+    institution: 'Chegg Skills (Thinkful)',
+    description:
+      'Develop foundational skills in frontend web development, building on your existing knowledge of HTML, CSS, JavaScript, and advanced topics like React JS.',
+  },
+  {
+    id: 3,
+    title:
+      '<a href="https://learn.microsoft.com/en-us/users/eduardotornquist-4707/credentials/7a0b1c6f5e02995b?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer">AZ-900: Microsoft Azure Fundamentals Certification</a>',
+    periodTime: 'Sept 2024',
+    institution: 'Microsoft',
+    description:
+      'Demonstrate foundational knowledge of cloud concepts, core Azure services, plus Azure management and governance features and tools.',
   },
 ]
 
 let responsabilities1 = [
-  'Lead in the design, development, and implementation of the graphic, layout, and production communication materials',
-  'Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.',
-  'Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design',
-  'Oversee the efficient use of production project budgets ranging from $2,000 - $25,000',
+  'Designed and developed a production-grade web application using React, Redux, Material UI, and NestJS to manage a large catalog of residential construction plans for a national homebuilder.',
+  'Implemented complex, form-driven workflows to create, edit, duplicate, hide, and manage plans with dozens of configurable attributes and validations.',
+  'Built and documented RESTful APIs using Swagger decorators, ensuring consistent contracts between frontend and backend systems',
+  'Developed NestJS backend services integrated with Azure Cosmos DB to support plan lifecycle management, visibility controls, and persistence of AI-generated metadata.',
 ]
 
 let responsabilities2 = [
-  'Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).',
-  'Managed up to 5 projects or tasks at a given time while under pressure',
-  'Recommended and consulted with clients on the most appropriate graphic design',
-  'Created 4+ design presentations and proposals a month for clients and account managers',
+  'Contributed to the development and maintenance of the company’s core ERP system, built with .NET and WPF, supporting end-to-end operations across sales, purchasing, accounting, and other departments.',
+  'Designed and implemented new user interfaces for ERP modules, including functionality to export invoices and transactional data to Excel for operational and reporting needs',
+  'Investigated and resolved bugs and system issues, improving overall system reliability and user experience for internal teams.',
+  'Worked extensively with Microsoft SQL Server, developing and maintaining stored procedures that supported core ERP functionality',
 ]
 
 export const resumeExperience = [
   {
     id: 1,
-    title: 'Senior graphic design specialist',
-    periodTime: '2019 - Present',
-    company: 'Experion, New York, NY',
+    title: 'Software Developer',
+    periodTime: 'Aug 2023 - Present',
+    company:
+      '<a href="https://www.lennar.com/" target="_blank" rel="noopener noreferrer">Lennar</a>, Miami, FL',
     responsabilities: responsabilities1,
   },
   {
     id: 2,
-    title: 'Graphic design specialist',
-    periodTime: '2017 - 2018',
-    company: 'Stepping Stone Advertising, New York, NY',
+    title: 'Software Developer',
+    periodTime: 'Feb 2022 — Jul 2023',
+    company:
+      '<a href="https://www.quirchfoods.com/" target="_blank" rel="noopener noreferrer">Quirch Foods</a>, Miami, FL',
     responsabilities: responsabilities2,
   },
 ]

@@ -9,23 +9,32 @@ const Resume = () => {
         <div className="section-title">
           <h2>Resume</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+            Software Developer with 4.5 years of experience building scalable
+            web applications. 2.5 years as a{' '}
+            <strong>Full Stack Developer</strong> delivering production-grade
+            solutions using{' '}
+            <strong>React, Redux, Material UI, and NestJS</strong>. Experienced
+            with <strong>Azure (Cosmos DB, Function Apps, Blob Storage)</strong>
+            , cloud-native architectures,{' '}
+            <strong>CI/CD pipelines, and GitHub workflows</strong>.{' '}
+            <strong>AZ-900 </strong>
+            certified with strong front-end foundations via the{' '}
+            <strong>
+              Frontend Web Development Certificate Program (Thinkful – Chegg
+              Skills)
+            </strong>
+            . Focused on clean code, collaboration, and continuous improvement.
           </p>
         </div>
         <div className="row">
-          <Education
-            city={'Miami, FL'}
-            phoneNumber={'786-609-1118'}
-            email={'eatornquist04@gmail.com'}
-          />
+          <Education />
 
           <Experience />
         </div>
-
-        <DownloadPDF />
+        <DownloadPDF
+          fileName="Eduardo_Tornquist_-_Software_Developer.pdf"
+          buttonText="Download Resume"
+        />
       </div>
     </section>
   )
